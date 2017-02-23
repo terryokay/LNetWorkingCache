@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D8BDE2C1E42D33D0016073E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BDE2B1E42D33D0016073E /* AppDelegate.swift */; };
+		6D8BDE2E1E42D33D0016073E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BDE2D1E42D33D0016073E /* ViewController.swift */; };
+		6D8BDE311E42D33D0016073E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BDE2F1E42D33D0016073E /* Main.storyboard */; };
+		6D8BDE331E42D33D0016073E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BDE321E42D33D0016073E /* Assets.xcassets */; };
+		6D8BDE361E42D33D0016073E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BDE341E42D33D0016073E /* LaunchScreen.storyboard */; };
+		6D8BDE3F1E42D5280016073E /* NetWorkingCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BDE3E1E42D5280016073E /* NetWorkingCommon.swift */; };
+		6D8BDE411E42D7300016073E /* LKCacheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BDE401E42D7300016073E /* LKCacheTool.swift */; };
+		6D8BDE451E42DA720016073E /* myTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BDE441E42DA720016073E /* myTestView.m */; };
+		6D8BDE471E42F7370016073E /* LKCacheNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BDE461E42F7370016073E /* LKCacheNetWorking.swift */; };
+		F46798C128A78861AFCCCEC8 /* Pods_LKCacheNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858CA670F731FF63F1E17290 /* Pods_LKCacheNetWorking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34BFD288EB6B03FD60632837 /* Pods-LKCacheNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKCacheNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKCacheNetWorking/Pods-LKCacheNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		6D8BDE281E42D33D0016073E /* LKCacheNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKCacheNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8BDE2B1E42D33D0016073E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D8BDE2D1E42D33D0016073E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D8BDE301E42D33D0016073E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D8BDE321E42D33D0016073E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D8BDE351E42D33D0016073E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D8BDE371E42D33D0016073E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8BDE3E1E42D5280016073E /* NetWorkingCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkingCommon.swift; sourceTree = "<group>"; };
+		6D8BDE401E42D7300016073E /* LKCacheTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKCacheTool.swift; sourceTree = "<group>"; };
+		6D8BDE421E42DA710016073E /* LKCacheNetWorking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKCacheNetWorking-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D8BDE431E42DA720016073E /* myTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTestView.h; sourceTree = "<group>"; };
+		6D8BDE441E42DA720016073E /* myTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTestView.m; sourceTree = "<group>"; };
+		6D8BDE461E42F7370016073E /* LKCacheNetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKCacheNetWorking.swift; sourceTree = "<group>"; };
+		858CA670F731FF63F1E17290 /* Pods_LKCacheNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKCacheNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2546E75CBEB87FDE4C96989 /* Pods-LKCacheNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKCacheNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKCacheNetWorking/Pods-LKCacheNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D8BDE251E42D33D0016073E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46798C128A78861AFCCCEC8 /* Pods_LKCacheNetWorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1824CA59AFB1690ECDDAE2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858CA670F731FF63F1E17290 /* Pods_LKCacheNetWorking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188E02458602E342C62FE764 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2546E75CBEB87FDE4C96989 /* Pods-LKCacheNetWorking.debug.xcconfig */,
+				34BFD288EB6B03FD60632837 /* Pods-LKCacheNetWorking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D8BDE1F1E42D33D0016073E = {
+			isa = PBXGroup;
+			children = (
+				6D8BDE2A1E42D33D0016073E /* LKCacheNetWorking */,
+				6D8BDE291E42D33D0016073E /* Products */,
+				188E02458602E342C62FE764 /* Pods */,
+				1824CA59AFB1690ECDDAE2A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D8BDE291E42D33D0016073E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8BDE281E42D33D0016073E /* LKCacheNetWorking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D8BDE2A1E42D33D0016073E /* LKCacheNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				6D8BDE3D1E42D4FD0016073E /* NetWorking */,
+				6D8BDE2B1E42D33D0016073E /* AppDelegate.swift */,
+				6D8BDE2D1E42D33D0016073E /* ViewController.swift */,
+				6D8BDE431E42DA720016073E /* myTestView.h */,
+				6D8BDE441E42DA720016073E /* myTestView.m */,
+				6D8BDE2F1E42D33D0016073E /* Main.storyboard */,
+				6D8BDE321E42D33D0016073E /* Assets.xcassets */,
+				6D8BDE341E42D33D0016073E /* LaunchScreen.storyboard */,
+				6D8BDE371E42D33D0016073E /* Info.plist */,
+				6D8BDE421E42DA710016073E /* LKCacheNetWorking-Bridging-Header.h */,
+			);
+			path = LKCacheNetWorking;
+			sourceTree = "<group>";
+		};
+		6D8BDE3D1E42D4FD0016073E /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				6D8BDE3E1E42D5280016073E /* NetWorkingCommon.swift */,
+				6D8BDE401E42D7300016073E /* LKCacheTool.swift */,
+				6D8BDE461E42F7370016073E /* LKCacheNetWorking.swift */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D8BDE271E42D33D0016073E /* LKCacheNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8BDE3A1E42D33D0016073E /* Build configuration list for PBXNativeTarget "LKCacheNetWorking" */;
+			buildPhases = (
+				1C5FA39BE699415A9269079D /* [CP] Check Pods Manifest.lock */,
+				6D8BDE241E42D33D0016073E /* Sources */,
+				6D8BDE251E42D33D0016073E /* Frameworks */,
+				6D8BDE261E42D33D0016073E /* Resources */,
+				1D2858636AC92EEFC90AC75B /* [CP] Embed Pods Frameworks */,
+				51A7539622425D84E588F4FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKCacheNetWorking;
+			productName = LKCacheNetWorking;
+			productReference = 6D8BDE281E42D33D0016073E /* LKCacheNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D8BDE201E42D33D0016073E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = terry;
+				TargetAttributes = {
+					6D8BDE271E42D33D0016073E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5MJG7PG96Q;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6D8BDE231E42D33D0016073E /* Build configuration list for PBXProject "LKCacheNetWorking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D8BDE1F1E42D33D0016073E;
+			productRefGroup = 6D8BDE291E42D33D0016073E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8BDE271E42D33D0016073E /* LKCacheNetWorking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D8BDE261E42D33D0016073E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8BDE361E42D33D0016073E /* LaunchScreen.storyboard in Resources */,
+				6D8BDE331E42D33D0016073E /* Assets.xcassets in Resources */,
+				6D8BDE311E42D33D0016073E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5FA39BE699415A9269079D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D2858636AC92EEFC90AC75B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKCacheNetWorking/Pods-LKCacheNetWorking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A7539622425D84E588F4FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKCacheNetWorking/Pods-LKCacheNetWorking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D8BDE241E42D33D0016073E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8BDE2E1E42D33D0016073E /* ViewController.swift in Sources */,
+				6D8BDE411E42D7300016073E /* LKCacheTool.swift in Sources */,
+				6D8BDE3F1E42D5280016073E /* NetWorkingCommon.swift in Sources */,
+				6D8BDE2C1E42D33D0016073E /* AppDelegate.swift in Sources */,
+				6D8BDE451E42DA720016073E /* myTestView.m in Sources */,
+				6D8BDE471E42F7370016073E /* LKCacheNetWorking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D8BDE2F1E42D33D0016073E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8BDE301E42D33D0016073E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D8BDE341E42D33D0016073E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8BDE351E42D33D0016073E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D8BDE381E42D33D0016073E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D8BDE391E42D33D0016073E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D8BDE3B1E42D33D0016073E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2546E75CBEB87FDE4C96989 /* Pods-LKCacheNetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5MJG7PG96Q;
+				INFOPLIST_FILE = LKCacheNetWorking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emeixian.LKCacheNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LKCacheNetWorking/LKCacheNetWorking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D8BDE3C1E42D33D0016073E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BFD288EB6B03FD60632837 /* Pods-LKCacheNetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5MJG7PG96Q;
+				INFOPLIST_FILE = LKCacheNetWorking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emeixian.LKCacheNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LKCacheNetWorking/LKCacheNetWorking-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D8BDE231E42D33D0016073E /* Build configuration list for PBXProject "LKCacheNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8BDE381E42D33D0016073E /* Debug */,
+				6D8BDE391E42D33D0016073E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8BDE3A1E42D33D0016073E /* Build configuration list for PBXNativeTarget "LKCacheNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8BDE3B1E42D33D0016073E /* Debug */,
+				6D8BDE3C1E42D33D0016073E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D8BDE201E42D33D0016073E /* Project object */;
+}
